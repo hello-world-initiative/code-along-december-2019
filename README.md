@@ -94,12 +94,12 @@ For example, if you wanted to move an element from one side of the screen to the
 
 To animate an element, you can use the 'animation' property, which is a shorthand way to animate everything with only one line. Since we're learning (and to make more interesting effects), we won't use the shortcut. Instead, we'll use the following longhand properties:
 
-**animation-name**: The name of the animation you want to use for the element - the name is what you set in your keyframes declaration
-**animation-duration**: How long the animation takes to complete one cycle (in seconds)
-**animation-timing-function**: The [timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function) the animation uses as it progresses
-**animation-delay**: The amount of time that must pass before the animation starts
-**animation-iteration-count**: How many times the animation will complete
-**animation-direction**: The "direction" in which the animation plays, i.e. start to finish (normal), or in reverse (reverse)
-**animation-fill-mode**: The fill mode allows you to set whether or not the styles in an animation remain after the animation finishes its cycle
+- **animation-name**: The name of the animation you want to use for the element - the name is what you set in your keyframes declaration
+- **animation-duration**: How long the animation takes to complete one cycle (in seconds)
+- **animation-timing-function**: The [timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function) the animation uses as it progresses
+- **animation-delay**: The amount of time that must pass before the animation starts
+- **animation-iteration-count**: How many times the animation will complete
+- **animation-direction**: The "direction" in which the animation plays, i.e. start to finish (normal), or in reverse (reverse)
+- **animation-fill-mode**: The fill mode allows you to set whether or not the styles in an animation remain after the animation finishes its cycle
 
 There are other possible properties that we won't be using, but you can read about them [here](https://developer.mozilla.org/en-US/docs/Web/CSS/animation).

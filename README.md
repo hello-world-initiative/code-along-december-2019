@@ -2,6 +2,8 @@
 
 These are the project files for a simple holiday card that you can share with friends and family. The design is very simple, so we'll be adding some animations to make things more interesting.
 
+Check out a preview of what we'll be making here: [HWI Holiday Card](https://hello-world-initiative.github.io/code-along-december-2019/). Note that this page has not been optimized for mobile, so we recommend viewing it on a larger screen.
+
 ## Getting started
 
 If you have `git` installed, you can clone this project using one of the URLs above:

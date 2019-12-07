@@ -1,0 +1,88 @@
+/* Snowflakes */
+@keyframes fallingSnow {}
+
+.snowflake-icon {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.snowflake-1 {
+  left: 12.5%;
+}
+
+.snowflake-2 {
+  left: 37.5%;
+  height: 45px;
+  width: 45px;
+}
+
+.snowflake-3 {
+  left: 62.5%;
+  height: 55px;
+  width: 55px;
+}
+
+.snowflake-4 {
+  left: 87.5%;
+}
+
+.snowflake-5 {
+  left: 50%;
+}
+
+.snowflake-1-delay {}
+
+.snowflake-2-delay {}
+
+.snowflake-3-delay {}
+
+.snowflake-4-delay {}
+
+.snowflake-5-delay {}
+
+/* Card Flip */
+.card {
+  position: relative;
+  height: 640px;
+  width: 480px;
+}
+
+.card-side {
+  height: 640px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card:hover>.card-front {}
+
+.card:hover>.card-back {}
+
+/* Back side animations */
+@keyframes colorShift {}
+
+.animated-text {}
+
+/* Fade in signature */
+@keyframes fadeInSignature {}
+
+.text-container {}
+
+.signature::before {
+  content: '';
+}
+
+.card:hover .signature::before {}
